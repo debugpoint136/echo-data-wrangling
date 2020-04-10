@@ -1,0 +1,88 @@
+type Subject {
+  id: ID!
+  sex: String
+  age: Int
+  race: String
+  infection_diagnosis_date: Date
+  infection_agent: String
+  infection_agent_load: String
+  infection_status: String
+  infection_confirmation_assay: String
+  institute: [Institution] @relation(name: "BELONGS_TO", direction: "IN")
+  collectionpoint: [Institution] @relation(name: "COLLECTED_AT", direction: "IN")
+  handler: [Handler] @relation(name: "HANDLER", direction: "IN")
+  condition: [Condition] @relation(name: "DIAGNOSED_WITH", direction: "IN")
+  exposure: [Exposure] @relation(name: "EXPOSED_TO", direction: "IN")
+}
+
+type Study {
+  id: ID!
+}
+
+type Institution {
+  id: ID!
+}
+
+type Biosample {
+  id: ID!
+  subject: [Subject] @relation(name: "DERIVED_FROM", direction: "IN")
+}
+
+type SequenceItem {
+  id: ID!
+  stars: Int
+  md5sum: String
+  assay: String
+  batch: String
+  date: Date
+  biosample: [Biosample] @relation(name: "INPUT", direction: "IN")
+  aliquot: [Aliquot] @relation(name: "PART_OF", direction: "IN")
+  assaycollection: [AssayCollection] @relation(name: "ASSAYED_IN", direction: "IN")
+  assaymetadata: [AssayInformation] @relation(name: "ASSAY_INFO", direction: "IN")
+}
+
+type Assay {
+  id: ID!
+}
+
+type AssayInformation {
+  id: ID!
+}
+
+type AssayCollection {
+  id: ID!
+}
+
+type Aliquot {
+  id: ID!
+}
+
+type Infection {
+  id: ID!
+  agent: String
+  confirmatory_assay: String
+  diagnosis_date: Date
+  status: String
+}
+
+type Exposure {
+  id: ID!
+  type: String
+  code: String
+}
+
+type Condition {
+  id: ID!
+  code: String
+}
+
+type Handler {
+  id: ID!
+  code: String
+}
+
+type Medication {
+  id: ID!
+  name: String
+  description: String
+}

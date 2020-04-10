@@ -1,0 +1,83 @@
+{
+    "assay": "mint_chip", 
+    "md5sum": "e2394b18deafd039cc6aa85770c2b1da", 
+    "batch": "", 
+    "filename": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/DU19-01S0004018.tar.gz", 
+    "biosample_id": "GCC01RB8-01", 
+    "aliquot_id": "DU19-01S0004018", 
+    "mint_chip_metadata": {
+        "fastqs": [
+            {
+                "filename": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L1_Total_H3_HIV_CKDL190142514-1A-AK2729_H53TYBBXX_L6%H20_GTAACCTG_1.txt.gz", 
+                "paired_file": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L1_Total_H3_HIV_CKDL190142514-1A-AK2729_H53TYBBXX_L6%H20_GTAACCTG_2.txt.gz", 
+                "antibody": "Total"
+            }, 
+            {
+                "filename": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L1_Total_H3_HIV_CKDL190142514-1A-AK2729_H53TYBBXX_L6%H20_GTAACCTG_2.txt.gz", 
+                "paired_file": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L1_Total_H3_HIV_CKDL190142514-1A-AK2729_H53TYBBXX_L6%H20_GTAACCTG_1.txt.gz", 
+                "antibody": "Total"
+            }, 
+            {
+                "filename": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L2_H3K27ac_HIV_CKDL190142514-1A-AK2721_H53TYBBXX_L6%H20_GTAACCTG_1.txt.gz", 
+                "paired_file": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L2_H3K27ac_HIV_CKDL190142514-1A-AK2721_H53TYBBXX_L6%H20_GTAACCTG_2.txt.gz", 
+                "antibody": "H3K27ac"
+            }, 
+            {
+                "filename": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L2_H3K27ac_HIV_CKDL190142514-1A-AK2721_H53TYBBXX_L6%H20_GTAACCTG_2.txt.gz", 
+                "paired_file": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L2_H3K27ac_HIV_CKDL190142514-1A-AK2721_H53TYBBXX_L6%H20_GTAACCTG_1.txt.gz", 
+                "antibody": "H3K27ac"
+            }, 
+            {
+                "filename": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L3_H3K4me1_HIV_CKDL190142514-1A-AK4949_H53TYBBXX_L6%H20_GTAACCTG_1.txt.gz", 
+                "paired_file": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L3_H3K4me1_HIV_CKDL190142514-1A-AK4949_H53TYBBXX_L6%H20_GTAACCTG_2.txt.gz", 
+                "antibody": "H3K4me1"
+            }, 
+            {
+                "filename": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L3_H3K4me1_HIV_CKDL190142514-1A-AK4949_H53TYBBXX_L6%H20_GTAACCTG_2.txt.gz", 
+                "paired_file": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L3_H3K4me1_HIV_CKDL190142514-1A-AK4949_H53TYBBXX_L6%H20_GTAACCTG_1.txt.gz", 
+                "antibody": "H3K4me1"
+            }, 
+            {
+                "filename": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L4_H3K4me3_HIV_CKDL190142514-1A-AK2693_H53TYBBXX_L6%H20_GTAACCTG_1.txt.gz", 
+                "paired_file": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L4_H3K4me3_HIV_CKDL190142514-1A-AK2693_H53TYBBXX_L6%H20_GTAACCTG_2.txt.gz", 
+                "antibody": "H3K4me3"
+            }, 
+            {
+                "filename": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L4_H3K4me3_HIV_CKDL190142514-1A-AK2693_H53TYBBXX_L6%H20_GTAACCTG_2.txt.gz", 
+                "paired_file": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L4_H3K4me3_HIV_CKDL190142514-1A-AK2693_H53TYBBXX_L6%H20_GTAACCTG_1.txt.gz", 
+                "antibody": "H3K4me3"
+            }, 
+            {
+                "filename": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L5_H3K27me3_HIV_CKDL190142514-1A-AK4948_H53TYBBXX_L6%H20_GTAACCTG_1.txt.gz", 
+                "paired_file": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L5_H3K27me3_HIV_CKDL190142514-1A-AK4948_H53TYBBXX_L6%H20_GTAACCTG_2.txt.gz", 
+                "antibody": "H3K27me3"
+            }, 
+            {
+                "filename": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L5_H3K27me3_HIV_CKDL190142514-1A-AK4948_H53TYBBXX_L6%H20_GTAACCTG_2.txt.gz", 
+                "paired_file": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L5_H3K27me3_HIV_CKDL190142514-1A-AK4948_H53TYBBXX_L6%H20_GTAACCTG_1.txt.gz", 
+                "antibody": "H3K27me3"
+            }, 
+            {
+                "filename": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L6_H3K36me3_HIV_CKDL190142514-1A-AK4950_H53TYBBXX_L6%H20_GTAACCTG_1.txt.gz", 
+                "paired_file": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L6_H3K36me3_HIV_CKDL190142514-1A-AK4950_H53TYBBXX_L6%H20_GTAACCTG_2.txt.gz", 
+                "antibody": "H3K36me3"
+            }, 
+            {
+                "filename": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L6_H3K36me3_HIV_CKDL190142514-1A-AK4950_H53TYBBXX_L6%H20_GTAACCTG_2.txt.gz", 
+                "paired_file": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L6_H3K36me3_HIV_CKDL190142514-1A-AK4950_H53TYBBXX_L6%H20_GTAACCTG_1.txt.gz", 
+                "antibody": "H3K36me3"
+            }, 
+            {
+                "filename": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L7_H3K9me3_HIV_CKDL190142514-1A-AK2702_H53TYBBXX_L6%H20_GTAACCTG_1.txt.gz", 
+                "paired_file": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L7_H3K9me3_HIV_CKDL190142514-1A-AK2702_H53TYBBXX_L6%H20_GTAACCTG_2.txt.gz", 
+                "antibody": "H3K9me3"
+            }, 
+            {
+                "filename": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L7_H3K9me3_HIV_CKDL190142514-1A-AK2702_H53TYBBXX_L6%H20_GTAACCTG_2.txt.gz", 
+                "paired_file": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_Mint-ChIP/L7_H3K9me3_HIV_CKDL190142514-1A-AK2702_H53TYBBXX_L6%H20_GTAACCTG_1.txt.gz", 
+                "antibody": "H3K9me3"
+            }
+        ] 
+    }, 
+    "assay_collection_id": "HIV02"
+}

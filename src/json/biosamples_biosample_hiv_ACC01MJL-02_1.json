@@ -1,0 +1,27 @@
+{
+    "biosample_id": "ACC01MJL-02",
+    "subject_id": "9321282",
+    "sample_cat": "Derived",
+    "pro_or_ret": "Retrospective",
+    "collection_time": "2010-03-17",
+    "elapsed_time": "7",
+    "sample_type": "PBMC",
+    "collecting_institution": "DU",
+    "prime_institution": "DU",
+    "exposure_type": "Infection",
+    "exposure_code": "HIV",
+    "handler_code": "HIV",
+    "condition_code": "I",
+    "clinical_data": {
+        "sex": "M",
+        "age": "32",
+        "race": "Mixed/Other"
+    },
+    "infection_metadata": {
+        "agent": "HIV",
+        "date_of_diagnosis": "2010-03-17",
+        "confirmatory_assay": "PCR",
+        "infection_status": "Chronic",
+        "agent_load": 24819
+    }
+}

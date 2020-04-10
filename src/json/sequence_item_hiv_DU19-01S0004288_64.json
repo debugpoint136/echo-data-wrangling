@@ -1,0 +1,12 @@
+{
+    "biosample_id": "GCC01RB8-01",
+    "aliquot_id": "DU19-01S0004288",
+    "assay_collection_id": "HIV02",
+    "filename": "/home/gridsan/groups/ECHO_ACA/ACA/pub/HIV_total_RNA/DU19-01S0004288.tar.gz",
+    "md5sum": "cedbec07b4d2cc5d3d01d04d8976ef77",
+    "assay": "rna_seq",
+    "batch": "",
+    "rna_seq_metadata": {
+        "rin": "7.3"
+    }
+}

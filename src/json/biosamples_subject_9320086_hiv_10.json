@@ -1,0 +1,24 @@
+{
+    "study_id": "iPREX HIV study",
+    "subject_id": "9320086",
+    "handler": "",
+    "collecting_institution": "DU",
+    "prime_institution": "DU",
+    "biosample_id": "CCC018X5-03",
+    "exposure_type": "Infection",
+    "exposure_code": "HIV",
+    "handler_code": "HIV",
+    "condition_code": "C",
+    "clinical_data": {
+        "sex": "M",
+        "age": "22",
+        "race": "Mixed/Other"
+    },
+    "infection_metadata": {
+        "agent": "HIV",
+        "date_of_diagnosis": "2009-10-06",
+        "confirmatory_assay": "PCR",
+        "infection_status": "Negative",
+        "agent_load": 40
+    }
+}
