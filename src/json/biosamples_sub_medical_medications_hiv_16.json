@@ -1,0 +1,37 @@
+{
+    "study_id": "iPREX HIV study",
+    "subject_id": "9320965",
+    "handler": "",
+    "collecting_institution": "DU",
+    "prime_institution": "DU",
+    "biosample_id": "FCC00KVR-01",
+    "exposure_type": "Infection",
+    "exposure_code": "HIV",
+    "handler_code": "HIV",
+    "condition_code": "C",
+    "clinical_data": {
+        "gender": "M",
+        "age": "19"
+    },
+    "medications": [
+        {
+            "name": "ZIDOVUDINE W/LAMIVUDINE",
+            "description": "UNKNOWN"
+        },
+        {
+            "name": "LAMIVUDINE 150 MG/ZIDOVUDINE 300 MG",
+            "description": "UNKNOWN"
+        },
+        {
+            "name": "EFAVIRENZ",
+            "description": "UNKNOWN"
+        }
+    ],
+    "infection_metadata": {
+        "agent": "HIV",
+        "date_of_diagnosis": "2008-12-13",
+        "confirmatory_assay": "PCR",
+        "infection_status": "Negative",
+        "agent_load": 40
+    }
+}

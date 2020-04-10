@@ -57,13 +57,13 @@ type Aliquot {
   id: ID!
 }
 
-type Infection {
-  id: ID!
-  agent: String
-  confirmatory_assay: String
-  diagnosis_date: Date
-  status: String
-}
+# type Infection {
+#   id: ID!
+#   agent: String
+#   confirmatory_assay: String
+#   diagnosis_date: Date
+#   status: String
+# }
 
 type Exposure {
   id: ID!

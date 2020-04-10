@@ -37,7 +37,16 @@ Object.keys(INPUTJSON).forEach(key => {
   switch (key) {
     case 'subject_id':
       tmp = createMutations('Subject', INPUTJSON);
-      
+      results.push(tmp);
+      break;
+
+    case 'sample_cat':
+      tmp = createMutations('Biosample', INPUTJSON);
+      results.push(tmp);
+      break;
+
+    case 'filename':
+      tmp = createMutations('SequencingItem', INPUTJSON);
       results.push(tmp);
       break;
   
@@ -46,7 +55,11 @@ Object.keys(INPUTJSON).forEach(key => {
   }
 })
 
-console.log(results.join('\n'))
+// console.log(` mutation {
+//   ${results.join('\n')}
+// }
+//   `);
+console.log(results.join('\n'));
 console.log(`===============================================================`)
 console.log(`results saved in ${UUID}.mutations.js`);
 console.log(`===============================================================`)
