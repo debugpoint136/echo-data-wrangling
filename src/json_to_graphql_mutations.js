@@ -46,7 +46,7 @@ Object.keys(INPUTJSON).forEach(key => {
       break;
 
     case 'filename':
-      tmp = createMutations('SequencingItem', INPUTJSON);
+      tmp = createMutations('SequenceItem', INPUTJSON);
       results.push(tmp);
       break;
   
@@ -60,8 +60,8 @@ Object.keys(INPUTJSON).forEach(key => {
 // }
 //   `);
 console.log(results.join('\n'));
-console.log(`===============================================================`)
-console.log(`results saved in ${UUID}.mutations.js`);
-console.log(`===============================================================`)
+// console.log(`===============================================================`)
+// console.log(`results saved in ${UUID}.mutations.js`);
+// console.log(`===============================================================`)
 
 

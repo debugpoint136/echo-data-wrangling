@@ -1,4 +1,7 @@
-const insertMutation = (TYPE, items, identifier) => {
+const uuid = require('uuid');
+
+const insertMutation = (TYPE, items) => {
+  const identifier = createIdentifier(TYPE, items);
 
   let tmp = `${identifier}: Create${TYPE}(`;
   items
@@ -30,8 +33,13 @@ const insertMutation = (TYPE, items, identifier) => {
         tmp = tmp + `, `
       }
     })
-  tmp = tmp + `)
-        ${items.map(d => d.key)
+  tmp = tmp + `) {
+        ${items.map(d => {
+          if (d.type === 'Date') {
+            return d.key + " {\n" + "\t  formatted\n" + "\t}";
+          }
+          return d.key
+        })
     .join('\n\t')}
       }
       `;
@@ -40,4 +48,16 @@ const insertMutation = (TYPE, items, identifier) => {
 
 module.exports = {
   insertMutation
+}
+
+
+function createIdentifier(TYPE, list) {
+  const IdElem = list.filter(d => d.type === 'ID');
+  const prefix = TYPE.toLowerCase().slice(0, 4);
+
+  if (IdElem.length) {
+    return prefix + IdElem[0].value.replace('-','');
+  } else {
+    return uuid.v4(); // generate an id on the fly
+  }
 }

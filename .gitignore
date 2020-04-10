@@ -1,1 +1,5 @@
 src/node_modules
+src/rna-seq/*json
+src/mutations/rna-seq/*json
+src/mutations/rna-seq/*/*json
+src/mutations/*json

@@ -37,7 +37,7 @@ const lookupRequiredKeys = (TYPE, input) => {
       const type  = input.sample_type;
       const kind  = input.pro_or_ret;
       const category  = input.sample_cat;
-      const collection_time  = input.collection_time;
+      const collected  = input.collection_time;
       const elapsed_time  = input.elapsed_time;
       return [
         {
@@ -61,8 +61,8 @@ const lookupRequiredKeys = (TYPE, input) => {
           type: 'String'
         },
         {
-          key: 'collection_time',
-          value: collection_time, 
+          key: 'collected',
+          value: collected, 
           type: 'Date'
         },
         {
@@ -72,17 +72,18 @@ const lookupRequiredKeys = (TYPE, input) => {
         }
     ];
 
-    case 'SequencingItem':
+    case 'SequenceItem':
       const UUID = uuid.v4();
       // const { biosample_id } = input;
       const filename  = input.filename;
       const md5sum  = input.md5sum;
       const assay  = input.assay;
+      const aliquot_id  = input.aliquot_id;
 
       return [
         {
           key: 'id',
-          value: UUID, 
+          value: aliquot_id, 
           type: 'ID'
         },
         {
@@ -98,6 +99,11 @@ const lookupRequiredKeys = (TYPE, input) => {
         {
           key: 'assay',
           value: assay, 
+          type: 'String'
+        },
+        {
+          key: 'aliquot_id',
+          value: aliquot_id, 
           type: 'String'
         }
     ];

@@ -25,20 +25,26 @@ type Institution {
 
 type Biosample {
   id: ID!
-  subject: [Subject] @relation(name: "DERIVED_FROM", direction: "IN")
+  category: String
+  type: String
+  kind: String
+  collected: Date
+  elapsed_time: String
+  subject: [Subject] @relation(name: "DERIVED_FROM", direction: "OUT")
 }
 
 type SequenceItem {
   id: ID!
-  stars: Int
+  filename: String
   md5sum: String
   assay: String
+  aliquot_id: String
   batch: String
   date: Date
-  biosample: [Biosample] @relation(name: "INPUT", direction: "IN")
-  aliquot: [Aliquot] @relation(name: "PART_OF", direction: "IN")
-  assaycollection: [AssayCollection] @relation(name: "ASSAYED_IN", direction: "IN")
-  assaymetadata: [AssayInformation] @relation(name: "ASSAY_INFO", direction: "IN")
+  biosample: [Biosample] @relation(name: "INPUT", direction: "OUT")
+  # aliquot: [Aliquot] @relation(name: "PART_OF", direction: "OUT")
+  # assaycollection: [AssayCollection] @relation(name: "ASSAYED_IN", direction: "IN")
+  # assaymetadata: [AssayInformation] @relation(name: "ASSAY_INFO", direction: "IN")
 }
 
 type Assay {

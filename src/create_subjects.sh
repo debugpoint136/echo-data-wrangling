@@ -1,0 +1,10 @@
+node json_to_graphql_mutations.js rna-seq/biosamples_sub_medical_medications_hiv_10.json > mutations/rna-seq/biosamples_sub_medical_medications_hiv_10.json
+node json_to_graphql_mutations.js rna-seq/biosamples_sub_medical_medications_hiv_13.json > mutations/rna-seq/biosamples_sub_medical_medications_hiv_13.json
+node json_to_graphql_mutations.js rna-seq/biosamples_sub_medical_medications_hiv_16.json > mutations/rna-seq/biosamples_sub_medical_medications_hiv_16.json
+node json_to_graphql_mutations.js rna-seq/biosamples_sub_medical_medications_hiv_28.json > mutations/rna-seq/biosamples_sub_medical_medications_hiv_28.json
+node json_to_graphql_mutations.js rna-seq/biosamples_sub_medical_medications_hiv_34.json > mutations/rna-seq/biosamples_sub_medical_medications_hiv_34.json
+node json_to_graphql_mutations.js rna-seq/biosamples_subject_9313454_hiv_1.json > mutations/rna-seq/biosamples_subject_9313454_hiv_1.json
+node json_to_graphql_mutations.js rna-seq/biosamples_subject_9313664_hiv_4.json > mutations/rna-seq/biosamples_subject_9313664_hiv_4.json
+node json_to_graphql_mutations.js rna-seq/biosamples_subject_9313920_hiv_7.json > mutations/rna-seq/biosamples_subject_9313920_hiv_7.json
+node json_to_graphql_mutations.js rna-seq/biosamples_subject_9321282_hiv_25.json > mutations/rna-seq/biosamples_subject_9321282_hiv_25.json
+node json_to_graphql_mutations.js rna-seq/biosamples_subject_9321891_hiv_31.json > mutations/rna-seq/biosamples_subject_9321891_hiv_31.json
